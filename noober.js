@@ -23,9 +23,15 @@ function pageLoad() {
   let passenger2 = ride[1]
   let passenger3 = ride[2]
 
-if (ride.length == 1){
-  passenger1Name = ride[0].passengerDetails.first + ' ' +
-}
+if (ride.length = 1) {
+  passenger1Name = ride[0].passengerDetails.first + ' ' + ride[0].passengerDetails.last
+  passenger1Phone = ride[0].passengerDetails.phoneNumber
+  passenger1NumberOfPassengers = ride[0].passengerDetails.numberOfPassengers
+  passenger1PickupAddressLine1 = ride[0].pickupLocation.address
+  passenger1PickupAddressLine2 = ride[0].pickupLocation.city + ',' + ' ' + ride[0].pickupLocation.state + ' ' + ride[0].pickupLocation.zip
+  passenger1DropoffAddressLine1 = ride[0].dropoffLocation.address
+  passenger1DropoffAddressLine2 = ride[0].dropoffLocation.city + ',' + ' ' + ride[0].dropoffLocation.state + ' ' + ride[0].dropoffLocation.zip
+} else if (ride.length == 2)
 
 
 
