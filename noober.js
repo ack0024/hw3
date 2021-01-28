@@ -8,6 +8,33 @@ function pageLoad() {
   // e.g. ask 'ride' for its length or only grab the first member of the Array
   console.log(ride)
 
+  levelOfService = ['Noober X', 'Noober Purple', 'Noober XL, Noober Pool']
+  if (ride.length > 1) {
+    levelOfService = 'Noober Pool'
+  } else if (ride.purpleRequested = true) {
+    levelOfService = 'Noober Purple'
+  } else if (ride.numberOfPassengers > 3) {
+    levelOfService = 'Noober XL'
+  } else {
+    levelOfService = 'Noober X'
+  }
+  
+  let passenger1 = ride[0]
+  let passenger2 = ride[1]
+  let passenger3 = ride[2]
+
+if (ride.length == 1){
+  passenger1Name = ride[0].passengerDetails.first + ' ' +
+}
+
+
+
+console.log(levelOfService)
+console.log(passenger1)
+
+
+
+
   // these variables map to the elements on the finished page;
   // assign the proper value to each variable
 
